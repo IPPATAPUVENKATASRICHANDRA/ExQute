@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quantum Basis — ExQute</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg:#0b0d13; --border:#1b2130; --text:#e6e8ee; --muted:#a9b0c0; }
+      *{box-sizing:border-box}
+      body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
+      .container{max-width:960px;margin:0 auto;padding:24px}
+      header{position:sticky;top:0;border-bottom:1px solid var(--border);background:rgba(11,13,19,.8);backdrop-filter:saturate(140%) blur(10px)}
+      .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+      .brand{display:flex;align-items:center;gap:10px;font-weight:800}
+      .mark{width:28px;height:28px;border-radius:6px;background:conic-gradient(from 180deg at 50% 50%, #6c8cff, #8b5cf6, #22d3ee, #6c8cff)}
+      .card{border:1px solid var(--border);border-radius:16px;padding:18px;margin:12px 0;background:rgba(18,22,35,.6)}
+      .dev-notice{border:2px solid #f59e0b;background:linear-gradient(135deg,rgba(245,158,11,.1),rgba(251,191,36,.05));position:relative;overflow:hidden}
+      .dev-notice::before{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(245,158,11,.1),transparent);animation:shimmer 3s infinite}
+      .dev-icon{font-size:32px;text-align:center;margin-bottom:8px;animation:pulse 2s infinite}
+      .muted{color:var(--muted)}
+      a{color:inherit;text-decoration:none}
+      @keyframes shimmer{0%{left:-100%}100%{left:100%}}
+      @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand"><div class="mark"></div>ExQute</div>
+        <nav><a href="/">Home</a></nav>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Quantum basis</h1>
+      <!-- <p class="muted">A gentle primer for concepts used in ExQute.</p>
+       -->
+      <div class="card dev-notice">
+        <div class="dev-icon">🚧</div>
+        <h3>Under Development</h3>
+        <p>This section is actively being expanded with more quantum computing concepts, interactive examples, and visual demonstrations. Check back soon for updates!</p>
+      </div>
+      
+      <!-- <p class="muted">Explore more via the Product and Developer pages.</p> -->
+    </main>
+  </body>
+  </html>
+
+
