@@ -1,4 +1,4 @@
-# ExQute: Your Local Quantum Circuit Simulator ⚛️
+# ExQute: Your Local Quantum Circuit Simulator
 
 ## 📄 Overview
 
