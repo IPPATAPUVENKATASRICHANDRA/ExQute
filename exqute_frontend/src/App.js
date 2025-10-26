@@ -10,12 +10,12 @@ function NavBar() {
         </div>
         <nav className="nav-links">
           <a href="https://github.com/IPPATAPUVENKATASRICHANDRA/ExQute_Zip/blob/main/win-x64.zip?raw=true" download>Download</a>
-          <a href="about.html">About</a>
-          <a href="product.html">Product</a>
-          <a href="quantum-basis.html">Quantum basis</a>
+          <a href={process.env.PUBLIC_URL + '/about.html'}>About</a>
+          <a href={process.env.PUBLIC_URL + '/product.html'}>Product</a>
+          <a href={process.env.PUBLIC_URL + '/quantum-basis.html'}>Quantum basis</a>
         </nav>
         <div className="nav-actions">
-          <a className="btn" href="contact.html">Contact</a>
+          <a className="btn" href={process.env.PUBLIC_URL + '/contact.html'}>Contact</a>
         </div>
       </div>
     </header>
