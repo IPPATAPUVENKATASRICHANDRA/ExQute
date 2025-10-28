@@ -54,4 +54,4 @@ Once again, thank you for downloading and supporting the project.
 
 *With Regards,*
 
-*Your Friend*
+*Srichandra...*
