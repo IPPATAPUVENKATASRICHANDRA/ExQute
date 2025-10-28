@@ -48,12 +48,6 @@ Thank you for downloading ExQute! Here is a quick guide to get you started:
 
 ---
 
-## ⚠️ Development Status & Feedback
-
-**Please Note:** ExQute is still in the **developing stage**, and you might encounter errors. If you find any issues, please contact us via the provided contact page so we can fix them!
-
----
-
 Once again, thank you for downloading and supporting the project.
 
 **Happy Quantuming!**
